@@ -1,0 +1,35 @@
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:src="@drawable/german_shepherd"
+    android:visibility="visible"
+    tools:context="edu.stevens.cs545.caninecaboodle.MainActivity">
+    <item
+        android:id="@+id/breed1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orderInCategory="101"
+        android:title="German Shepherd"
+        app:srcCompat="@drawable/german_shepherd" />
+
+    <item
+        android:id="@+id/breed2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Yorkshire Terrier"
+        app:srcCompat="@drawable/yorkshire_terrier_" />
+
+    <item
+        android:id="@+id/breed3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Golden Doodle"
+        app:srcCompat="@drawable/golden_doodle" />
+
+    <item
+        android:id="@+id/breed4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Labrador"
+        app:srcCompat="@drawable/labrador_" />
+</ImageView>
