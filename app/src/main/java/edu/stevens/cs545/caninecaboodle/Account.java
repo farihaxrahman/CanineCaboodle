@@ -11,7 +11,7 @@ import androidx.navigation.fragment.NavHostFragment;
 
 import edu.stevens.cs545.caninecaboodle.databinding.FragmentFirstBinding;
 
-public class Account extends MainActivity {
+public class Account extends Fragment {
     private String name;
     private String email;
     private String password;

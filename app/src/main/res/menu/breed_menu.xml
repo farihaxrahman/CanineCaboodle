@@ -1,35 +1,48 @@
-<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.realtivelayout.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:src="@drawable/german_shepherd"
-    android:visibility="visible"
-    tools:context="edu.stevens.cs545.caninecaboodle.MainActivity">
-    <item
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu">
+
+    <ImageButton
         android:id="@+id/breed1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orderInCategory="101"
+        android:layout_centerHorizontal="true"
+        android:padding="20dp"
+        android:background="@drawable/custom_image_button"
         android:title="German Shepherd"
-        app:srcCompat="@drawable/german_shepherd" />
+        android:src="@drawable/german_shepherd" />
 
-    <item
+    <ImageButton
         android:id="@+id/breed2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="20dp"
+        android:background="@drawable/custom_image_button"
         android:title="Yorkshire Terrier"
-        app:srcCompat="@drawable/yorkshire_terrier_" />
+        android:src="@drawable/yorkshire_terrier_" />
 
-    <item
+    <ImageButton
         android:id="@+id/breed3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="20dp"
+        android:background="@drawable/custom_image_button"
         android:title="Golden Doodle"
-        app:srcCompat="@drawable/golden_doodle" />
+        android:src="@drawable/golden_doodle" />
 
-    <item
+    <ImageButton
         android:id="@+id/breed4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="20dp"
+        android:background="@drawable/custom_image_button"
         android:title="Labrador"
-        app:srcCompat="@drawable/labrador_" />
-</ImageView>
+        android:src="@drawable/labrador_" />
+</androidx.realtivelayout.widget.RelativeLayout>

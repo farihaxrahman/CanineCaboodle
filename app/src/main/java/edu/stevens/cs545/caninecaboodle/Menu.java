@@ -2,9 +2,13 @@ package edu.stevens.cs545.caninecaboodle;
 
 import android.content.ComponentName;
 import android.content.Intent;
+import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.MenuItem;
 import android.view.SubMenu;
+import android.view.View;
+import android.widget.ImageButton;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -35,7 +39,7 @@ public class Menu extends AppCompatActivity implements android.view.Menu {
                 return super.onOptionsItemSelected(item);
         }
     }
-
+/*
     @Override
     public MenuItem add(CharSequence title) {
         return null;
@@ -154,6 +158,6 @@ public class Menu extends AppCompatActivity implements android.view.Menu {
     @Override
     public void setQwertyMode(boolean isQwerty) {
 
-    }
+    }*/
 }
 
