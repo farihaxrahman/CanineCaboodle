@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/breed5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/custom_image_button"
+        android:padding="20dp"
+        android:src="@drawable/yorkshire_terrier_"
+        android:title="Yorkshire Terrier"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageButton
+        android:id="@+id/breed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/custom_image_button"
+        android:padding="20dp"
+        android:src="@drawable/german_shepherd"
+        android:title="German Shepherd"
+        tools:layout_editor_absoluteX="178dp"
+        tools:layout_editor_absoluteY="76dp" />
+
+    <ImageButton
+        android:id="@+id/breed6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/custom_image_button"
+        android:padding="20dp"
+        android:src="@drawable/golden_doodle"
+        android:title="Golden Doodle"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="473dp" />
+
+    <ImageButton
+        android:id="@+id/breed7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/custom_image_button"
+        android:padding="20dp"
+        android:src="@drawable/labrador_"
+        android:title="Labrador"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="465dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
