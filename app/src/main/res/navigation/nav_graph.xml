@@ -11,11 +11,11 @@
         android:label="@string/first_fragment_label"
         tools:layout="@layout/fragment_first">
         <action
-            android:id="@+id/action_FirstFragment_to_menu"
-            app:destination="@id/menu" />
+            android:id="@+id/action_FirstFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
     </fragment>
-    <activity
-        android:id="@+id/menu"
-        android:name="edu.stevens.cs545.caninecaboodle.Menu"
-        android:label="Menu" />
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="edu.stevens.cs545.caninecaboodle.MenuFragment"
+        android:label="MenuFragment" />
 </navigation>

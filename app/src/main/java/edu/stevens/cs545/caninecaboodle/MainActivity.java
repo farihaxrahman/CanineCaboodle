@@ -66,6 +66,7 @@ public class MainActivity extends AppCompatActivity {
                 }
 
                 // TODO: Implement login functionality here
+                setContentView(R.layout.fragment_first);
             }
         });
     }

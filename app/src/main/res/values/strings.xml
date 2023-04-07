@@ -9,4 +9,8 @@
 
     <string name="hello_first_fragment">Welcome to Canine Caboodle</string>
     <string name="hello_second_fragment">Select your buddy!</string>
+    <string name="german_shepherd">German Shepherd</string>
+    <string name="yorkshire_terrier">Yorkshire Terrier</string>
+    <string name="labrador">Labrador</string>
+    <string name="golden_doodle">Golden Doodle</string>
 </resources>
