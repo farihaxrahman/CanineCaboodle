@@ -12,7 +12,6 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:padding="20dp"
-        android:background="@drawable/custom_image_button"
         android:title="German Shepherd"
         android:src="@drawable/german_shepherd" />
 
@@ -22,7 +21,6 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:padding="20dp"
-        android:background="@drawable/custom_image_button"
         android:title="Yorkshire Terrier"
         android:src="@drawable/yorkshire_terrier_" />
 
@@ -32,7 +30,6 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:padding="20dp"
-        android:background="@drawable/custom_image_button"
         android:title="Golden Doodle"
         android:src="@drawable/golden_doodle" />
 
@@ -42,7 +39,6 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:padding="20dp"
-        android:background="@drawable/custom_image_button"
         android:title="Labrador"
         android:src="@drawable/labrador_" />
 </androidx.realtivelayout.widget.RelativeLayout>
