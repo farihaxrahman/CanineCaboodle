@@ -5,33 +5,5 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <EditText
-        android:id="@+id/editTextEmail"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Email"
-        android:inputType="textEmailAddress"
-        android:padding="16dp"
-        android:layout_marginTop="64dp"/>
-
-    <EditText
-        android:id="@+id/editTextPassword"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Password"
-        android:inputType="textPassword"
-        android:padding="16dp"
-        android:layout_below="@+id/editTextEmail"/>
-
-    <Button
-        android:id="@+id/buttonLogin"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Login"
-        android:textColor="#ffffff"
-        android:background="#009688"
-        android:padding="16dp"
-        android:layout_marginTop="32dp"
-        android:layout_below="@+id/editTextPassword"/>
-
+    <include layout="@layout/content_main" />
 </RelativeLayout>

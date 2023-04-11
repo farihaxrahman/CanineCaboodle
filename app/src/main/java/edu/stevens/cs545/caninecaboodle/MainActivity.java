@@ -23,51 +23,16 @@ import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
 
-    private EditText editTextEmail, editTextPassword;
-    private Button buttonLogin;
+    // can store all data as variables here since no backend is needed
+    // get set methods per variable needed
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        editTextEmail = findViewById(R.id.editTextEmail);
-        editTextPassword = findViewById(R.id.editTextPassword);
-        buttonLogin = findViewById(R.id.buttonLogin);
-
-        buttonLogin.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                String email = editTextEmail.getText().toString().trim();
-                String password = editTextPassword.getText().toString().trim();
-
-                if (email.isEmpty()) {
-                    editTextEmail.setError("Email is required");
-                    editTextEmail.requestFocus();
-                    return;
-                }
-
-                if (!Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
-                    editTextEmail.setError("Please enter a valid email");
-                    editTextEmail.requestFocus();
-                    return;
-                }
-
-                if (password.isEmpty()) {
-                    editTextPassword.setError("Password is required");
-                    editTextPassword.requestFocus();
-                    return;
-                }
-
-                if (password.length() < 6) {
-                    editTextPassword.setError("Minimum length of password should be 6");
-                    editTextPassword.requestFocus();
-                    return;
-                }
-
-                // TODO: Implement login functionality here
-            }
-        });
     }
+
+
 }
 

@@ -9,7 +9,7 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
-import edu.stevens.cs545.caninecaboodle.databinding.FragmentFirstBinding;
+//import edu.stevens.cs545.caninecaboodle.databinding.FragmentFirstBinding;
 
 public class Account extends Fragment {
     private String name;
