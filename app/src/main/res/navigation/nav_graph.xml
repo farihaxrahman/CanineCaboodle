@@ -26,5 +26,36 @@
         android:id="@+id/selectFragment"
         android:name="edu.stevens.cs545.caninecaboodle.SelectFragment"
         android:label="fragment_select"
-        tools:layout="@layout/fragment_select" />
+        tools:layout="@layout/fragment_select" >
+        <action
+            android:id="@+id/action_selectFragment_to_mainGameFragment"
+            app:destination="@id/mainGameFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainGameFragment"
+        android:name="edu.stevens.cs545.caninecaboodle.MainGameFragment"
+        android:label="MainGameFragment" >
+        <action
+            android:id="@+id/action_mainGameFragment_to_journalFragment"
+            app:destination="@id/journalFragment" />
+        <action
+            android:id="@+id/action_mainGameFragment_to_miniGame1Fragment"
+            app:destination="@id/miniGame1Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/journalFragment"
+        android:name="edu.stevens.cs545.caninecaboodle.JournalFragment"
+        android:label="JournalFragment" >
+        <action
+            android:id="@+id/action_journalFragment_to_mainGameFragment"
+            app:destination="@id/mainGameFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/miniGame1Fragment"
+        android:name="edu.stevens.cs545.caninecaboodle.MiniGame1Fragment"
+        android:label="MiniGame1Fragment" >
+        <action
+            android:id="@+id/action_miniGame1Fragment_to_mainGameFragment"
+            app:destination="@id/mainGameFragment" />
+    </fragment>
 </navigation>

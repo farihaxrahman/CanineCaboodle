@@ -21,16 +21,37 @@ import android.view.MenuItem;
 import android.widget.Button;
 import android.widget.EditText;
 
+import java.util.HashMap;
+
 public class MainActivity extends AppCompatActivity {
 
-    // can store all data as variables here since no backend is needed
-    // get set methods per variable needed
+    public HashMap<String, Object> dog1 = new HashMap<String, Object>();
+    public int currentDog = 0;
+
+    //HashMap<String, Object> dog2 = new HashMap<String, Object>();
+    //HashMap<String, Object> dog3 = new HashMap<String, Object>();
+    //HashMap<String, Object> dog4 = new HashMap<String, Object>();
+
+
+    public void setDog1(Boolean unlocked) {
+        dog1.put("unlocked", unlocked);
+    }
+
+    public void setDog1(int newScore) {
+        dog1.put("score", newScore);
+    }
+
+    public void setCurrentDog(int dogId) {
+       currentDog = dogId;
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        dog1.put("unlocked", false);
+        dog1.put("score", 0);
     }
 
 
